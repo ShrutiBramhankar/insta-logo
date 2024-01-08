@@ -1,0 +1,110 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    height: 450px;
+    width: 450px;
+    background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%, #fd5949 45%,#fdf497 60%,#285aeb 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 120px;
+}
+.poloroid{
+    z-index: 10;
+    border: 30px solid white;
+    width: 350px;
+    height: 350px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.light{
+    position: relative;
+    border:30px solid white; 
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    left: 20px;
+}
+.object{
+    z-index: 100;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 100%;
+    top: -100px;
+} */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-heading {
+    color: rgb(6, 2, 114);
+    text-align: center;
+    padding: 3rem;
+}
+
+.logo-main-div {
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%,
+            #fd5949 45%,
+            #d6249f 60%,
+            #285aeb 90%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square-div-area {
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+    border: 12px solid white;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.circle-big-area-div {
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border: 12px solid white;
+    border-radius: 50%;
+}
+
+.circle-small-div-area {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
